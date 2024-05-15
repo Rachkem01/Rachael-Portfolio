@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:borfer-box;
+  }
+  body{
+    width:100%;
+    height:100vh;
+    background-color: #9b51e0;
+    
+    
+  }
+  html{
+    font-size:62.5%;
+  }
+  main{
+    font-size:1.6rem;
+    word-spacing:5px;
+    line-height:1.5;
+    margin-left: 15%;
+    padding-top: 5%;
+    margin-right: 7.5%;
+    
+    color: white;
+    font-family: sans-serif;
+  }
+  #navbar ul{
+  list-style:none;
+  display:flex;align-items:center;
+  justify-content:center;
+  
+  }
+  #navbar a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #navbar li{
+    margin-right:20px;
+  }
+  
+  #welcome-section{
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: purple;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: -50px;
+    text-align: center;
+     margin-left: -15%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+   
+    
+  }
+ nav{
+    padding-left: 45%;
+    text-align: center;
+    padding-top: 2%;
+ }
+ #body{
+    margin-top: 10%;
+    margin-left: -10%;
+    line-height: 2.5;
+    
+ }
+ #Hi{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 5px solid white;
+    border-bottom-left-radius:2.5px; 
+    
+    /* border-block-end: 5px outset black;
+    border-block-end-style: */
+    margin-bottom: 1%;
+    
+
+ }
+#introduction{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+blockquote{
+    font-size:1.4rem;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-family: Verdana;
+    font-weight: bold;
+    color: rgb(9, 9, 101);
+}
+#body ul{
+    list-style: none;
+   
+    
+    
+   
+}
+#body a{
+    text-decoration: none;
+   width: 250px;
+
+}
+#body li{
+    
+   
+}
+
+#portfolio-link{
+  background-color: white; 
+  color: purple;
+  width: 250px;
+   
+}
+#hire{
+    background-color: purple;
+    width: 120px;
+    color: white;
+    text-align: center;
+    margin-right: 20px;
+}
+#body{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    object-fit: cover;
+    aspect-ratio: 3/4;
+    width: 350px;
+    height: 40%;
+    
+}
+.hire{
+display: flex;
+}
+
+.social-icons a{
+text-decoration: none;
+color: white;
+
+}
+.social-icons{
+    margin-top: 20px;
+}
+#projects ul{
+   list-style: none;
+   display: flex;
+}
+#projects a{
+    text-decoration: none;
+}
+#projects{
+    background-color: purple;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 128%;
+    margin-left: -19%;
+}
+#projects li{
+    margin-right: 30px;
+}
+#picture2{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    padding-top: 100px;
+    margin-left: 20%;
+    aspect-ratio: 3/4;
+}
+.profile{
+    padding-top: 100px; 
+    padding-left: 20px;
+}
+#profile-link{
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 5px solid white;
+    border-bottom-left-radius:2.5px; 
+    
+}
+.project-tile{
+    margin-top: 5%;
+}
+#about p{
+    margin-left: 2%;
+    font-style: oblique;
+}
+
+@media (max-width:500px) and (max-width:767px){
+#welcome-section ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#body{
+    margin-top: 200px;
+}
+#picture{
+    width: 200px;
+    padding-left: 20px;
+}
+.hire{
+    display: block;
+}
+
+#projects{
+   display: block;
+}
+}
+
+@media (max-width:800px) and (max-width:1000px){
+    #welcome-section ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    #body{
+        margin-top: 200px;
+    }
+}
+@media (max-width:1000px) and (max-width:1200px){
+    #welcome-section ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    #body{
+        margin-top: 200px;
+    }
+}
+@media (max-width:400px){
+    #welcome-section ul{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          
+      }
+      #body{
+          margin-top: 200px;
+      }
+      #picture{
+        width:135px;
+      }
+      #picture2{
+          width:200px
+      }
+  }
